@@ -10,7 +10,7 @@ This repository contains an ESPHome configuration (`garden_light_remote.yaml`) t
 - Exposes template `button` entities in Home Assistant via the native API, so you can trigger the remote from automations or the UI. Simple place your remote with the ESP connected near your Lights and control it from Home Assistant. Also removes the need for batteries since the ESP power rails can be used to power the remote control
 
 ## Wiring (as implemented in the YAML)
-1. Remove the remote's coin cell.
+1. Remove the remote's batteries and open the casing to reveal the PCB.
 2. Power the remote VCC from the ESP's 3.3V rail.
 3. Connect ESP GND to the remote GND.
 4. Connect the ESP GPIOs to the remote button pads:
