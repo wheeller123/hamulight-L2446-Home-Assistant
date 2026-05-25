@@ -2,6 +2,9 @@
 
 This repository contains an ESPHome configuration (`garden_light_remote.yaml`) that repurposes a TYWE3S (ESP8266/ESP8285) module to drive a [Hamulight L2446 remote](https://www.hamulight.com/remote-control-apex-for-ab-sets-1-channel-outdoorcore?srsltid=AfmBOoq8OLyqLG-D_hzAC7Js3LfmO9zx_DdTwaDgfvLzyl2YUZRVmM7K) directly by shorting the remote's button pads with open-drain GPIOs. It exposes three virtual buttons to Home Assistant: Toggle, Brighter, and Dimmer.
 
+<img width="321" height="302" alt="image" src="https://github.com/user-attachments/assets/507bf8d7-1271-4850-818a-d191bdb6f8ca" />
+
+
 ![Hamulight L2446 remote](20260519_194730.jpg)
 
 ## What this does
