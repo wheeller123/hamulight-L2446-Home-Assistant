@@ -37,14 +37,14 @@ Important: Do not exceed 3.3V on the remote's pads. Use the TYWE3S 3.3V supply a
 - The `press_duration` substitution controls how long the pin is held low (default 120ms).
 
 ## Usage
-1. Review and update secrets (Wi‑Fi, API/OTA credentials). The YAML currently references `!secret` for Wi‑Fi, but contains an API encryption key and OTA password in-file — replace or remove these before sharing or publishing.
-2. From this project directory you can flash or run the device with the `esphome` CLI:
+1. Review and update secrets (Wi‑Fi, API/OTA credentials)
+2. Install the yaml on the ESP using [ESP Home Builder](https://esphome.io/guides/getting_started_hassio/)
+<img width="1065" height="263" alt="image" src="https://github.com/user-attachments/assets/9e458a77-879c-414a-aa62-adcd93f3722c" />
 
-```bash
-esphome run garden_light_remote.yaml
-```
+<img width="1633" height="655" alt="image" src="https://github.com/user-attachments/assets/3d08f851-2b85-457a-a921-d2ecabb2fbef" />
 
-3. After the device starts, the three buttons appear in Home Assistant via the native API. Use them like any other `button` entity.
+
+3. After the device starts, the three buttons appear in Home Assistant via the ESP Home Integration
 
 ## Configuration notes
 - `substitutions` contains `device_name`, `friendly_name`, and `press_duration` for easy customization.
